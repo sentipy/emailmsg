@@ -1,0 +1,6 @@
+message EmailMsg {
+  required string from = 1;
+  required string to = 2;
+  required string subject = 3;
+  required string text = 4;
+}
